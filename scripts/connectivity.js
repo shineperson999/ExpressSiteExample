@@ -57,6 +57,6 @@ var komodel = new PingModel([
     'PiSlave01',
     'PiSlave02',
     'PiSlave03',
-    'PiSlave04',
+    'PiSlave04'
     ]);
 ko.applyBindings(komodel);
