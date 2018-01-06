@@ -47,9 +47,10 @@ var PingModel = function (servers) {
     });
 };
 var komodel = new PingModel([
-    'piController',
-    'pi01',
-    'pi02',
-    'pi03'
+    'PiController',
+    'PiSlave01',
+    'PiSlave02',
+    'PiSlave03',
+    'PiSlave04'
     ]);
 ko.applyBindings(komodel);
